@@ -512,7 +512,7 @@ a.icon {
 }
 
 .filter-wrapper li a {
-    color: #666;
+    color: #666;/
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -523,14 +523,14 @@ a.icon {
     display: block;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
+    border-bottom: 4px solid white;
 }
-.filter-wrapper li a:active {
+/* .filter-wrapper li a:active {
   background: #111112 !important;
-}
+} */
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  background: #111112;
-  color: #ffffff;
+  border-bottom: 4px solid #111112;
 }
 
 /*isotope box css*/
