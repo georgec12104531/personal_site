@@ -156,7 +156,8 @@ nav a {
 
 .navbar {
   background: transparent;
-  height: 25px;
+  height: 94px;
+  max-height: 94px;
   margin: 0;
   border-radius: 0;
   transition: all 0.3s ease;
@@ -190,7 +191,7 @@ nav a {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  /* padding: 20px 0 0; */
+  padding: 20px 0 0;
 }
 
 nav ul {
@@ -500,7 +501,7 @@ a.icon {
 
 /*filter css*/
 .filter-wrapper {
-    width: 97%;
+    width: 100%;
     margin-bottom: 32px;
     overflow: hidden;
 }
@@ -530,6 +531,7 @@ a.icon {
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
   border-bottom: 4px solid #111112;
+  /* color: #ffffff; */
 }
 
 /*isotope box css*/
