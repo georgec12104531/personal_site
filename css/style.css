@@ -451,6 +451,7 @@ a.icon {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 6rem;
+  height: 700px;
 }
 
 #portfolio img {
@@ -541,6 +542,10 @@ a.icon {
 /*isotope box css*/
 .iso-box-section {
     width: 100%;
+    position: relative;
+    height: 482px;
+    margin-left: 118px;
+
 }
 
 .iso-box-wrapper {
@@ -783,7 +788,8 @@ footer {
 }
 .social-icon li {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 .social-icon li a {
   border-radius: 100px;
@@ -805,7 +811,7 @@ footer {
   top: 0px;
 }
 .social-icon li a:hover {
-  background: #ffffff;
+  font-size: 20px;
 }
 
 /* Responsive Mobile styles
