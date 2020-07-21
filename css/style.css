@@ -783,20 +783,17 @@ a.icon {
 /* ========================================== */
 footer {
   background: #141414;
-  padding-top: 120px;
-  padding-bottom: 120px;
   text-align: center;
 }
 
 /* social icon */
 .social-icon {
-  padding: 0;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .social-icon li {
   list-style: none;
-  display: flex;
-  justify-content: center;
 }
 .social-icon li a {
   border-radius: 100px;
